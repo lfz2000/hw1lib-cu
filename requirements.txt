@@ -5,3 +5,5 @@ polygon-api-client
 sqlalchemy
 pandas
 matplotlib
+sphinx_rtd_theme
+recommonmark
