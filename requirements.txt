@@ -4,5 +4,4 @@ tqdm
 polygon-api-client
 sqlalchemy
 pandas
-math
 matplotlib
