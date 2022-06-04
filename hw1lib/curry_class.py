@@ -28,6 +28,13 @@ class AUDUSD_return(object):
     :param tick_time: The tick time corresponding to this entry of price data.
     :type tick_time: float
 
+    :Class Attributes: **num** -  Variable to store the total number of instantiated objects in this class
+    :Class Attributes: **run_sum** -  Variable to store the running sum of the return
+    :Class Attributes: **run_squared_sum** -  Variable to store the runnng squared sum.
+    :Class Attributes: **run_sum_of_std** -  Variable to store the running sum of std
+    :Class Attributes: **last_price** -  Variable to store the last_price
+
+
     """
     # Variable to store the total number of instantiated objects in this class
     num = 0
